@@ -86,3 +86,4 @@ function handleArray(getArray){
 }
 
 console.log(handleArray(myArray));
+
