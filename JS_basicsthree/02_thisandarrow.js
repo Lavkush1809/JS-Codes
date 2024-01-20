@@ -20,3 +20,11 @@ user.welcomeMessage();
 //Note :- if we are using curly braces for arow function then we have to use return keyword
 
 const addNumber = (num1, num2) => (num1+num2) //here we are not using return keyword
+
+
+/*********************************************************************************************************/
+const myArray = [1,2,,4,5,6]
+
+const newArray = myArray.filter( (num) => num > 4)
+
+console.log(newArray);
